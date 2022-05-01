@@ -225,7 +225,6 @@ section {
 .contact {
     background-color: #024e76;
     text-align: center;
-    overflow: auto;
 }
 
 .contact h2 {
@@ -235,6 +234,7 @@ section {
 .contact-info iframe {
     width: 400px;
     height: 400px;
+    /* try float: left; */
 }
 
 .contact-info div {
@@ -244,12 +244,13 @@ section {
     text-align: left;
     margin: 30px 0 0 60px;
     color: white;
-    
+    overflow: auto;
   }
 
 .contact-info h3 {
     color: #fce138;
     font-size: 32px;
+    text-align: left;
 }
 
 .contact-info p, .contact-info address {
@@ -257,8 +258,12 @@ section {
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
+    color: white;
+    text-align: left;
 }
 
 .contact-info a {
     color: #fce138;
 }
+
+/* End Reach Out Section */
